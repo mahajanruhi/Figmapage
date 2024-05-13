@@ -1,0 +1,149 @@
+*{
+  margin:0px; padding:0px}
+
+.App{
+  width: 100vh;
+  height: 100vh;
+
+}
+
+.Sidebar {
+
+  height: 900px;
+  width: 200px;
+  background-color: rgba(248, 235, 235, 0.927);
+}
+
+.SidebarList{
+  height: auto;
+  margin:7%;
+  width: 100%;
+  display: grid;
+}
+
+.SidebarList .row {
+  
+  height: 40px;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex:70%;
+}
+
+#to {
+  color: goldenrod;
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+#too {
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 15%;
+  width: 10%;
+  background-color: goldenrod;
+  color: black;
+  text-align: center;
+  border-radius: 8%;
+}
+
+.search{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  opacity: 1;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search input{
+  margin-top: 20px;
+  width: 400px;
+  opacity: 1;
+  height:20px;
+}
+
+#dash{
+  opacity:0.5;
+}
+
+
+
+.donut-ring {
+  stroke: #EBEBEB;
+}
+
+
+.donut-segment-2 {
+  stroke: rgb(203, 177, 112);
+  animation: donut1 3s;
+}
+
+.donut-segment-3 {
+  stroke: rgb(149, 185, 149);
+  animation: donut2 3s;
+}
+
+.donut-segment-4 {
+  stroke: skyblue;
+  animation: donut3 3s;
+}
+
+.donut-percent {
+  animation: donutfadelong 1s;
+}
+
+
+.donut-text-1 {
+  fill: black;
+}
+.donut-text-2 {
+  fill: black;
+}
+.donut-text-3 {
+  fill: black;
+}
+
+.donut-percent {
+  font-size: 0.5em;
+  line-height: 1;
+  transform: translateY(0.5em);
+  font-weight: bold;
+}
+
+html { text-align:left; }
+.svg-item {
+max-width:30%;
+display:inline-flex;
+gap:2px;
+}
+ .RightSide{
+  display:flex;
+  flex-direction: column;
+  width:95%;
+  justify-content:space-evenly;
+ }
+

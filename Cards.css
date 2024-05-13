@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+    
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row{
+    justify-content: right;
+  }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    margin:0px;
+    text-align: center;
+    background-color:white;
+    border-radius: 10%;
+ 
+  }
+ 
+  #pr{
+    text-align:left;
+    color: goldenrod;
+    font-size: x-large;
+   
+    
+  }
+  #text{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+   
+  }
+
+  #logo{
+    Width:75px;
+    Height :73px;
+    Top:-13px;
+    Left: 38px;
+  }
+  #img{
+  
+      Width:75px;
+      Height :73px;
+      Top:-13px;
+      Left: 38px;
+  }
